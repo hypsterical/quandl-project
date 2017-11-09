@@ -1,5 +1,9 @@
 # quandl-project
+Simple project demonstrating quandl api calls and data manipulation in python.
 
+Dependencies:
+Python 2.7
+Libraries: Numpy, Pandas, Requests
 To run the project, first populate passwords-TEMPLATE.py with your Quandl API-Key:
 QUANDL_API_KEY = YOUR_API_KEY_HERE
 Then, rename passwords-TEMPLATE to passwords.py.
@@ -20,3 +24,6 @@ Day for each stock that would have yielded the largest profit
 Busiest day for each stock by volume
 --biggest-loser
 Stock with the most number of days with a close price lower than open
+
+Example program run with optional parameters
+python QuandleCodeProject.py "AAPL,GOOG" "2017-01-01" "2017-04-30" --biggest-loser --busy-day
