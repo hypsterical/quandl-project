@@ -7,7 +7,7 @@ Simple project demonstrating quandl api calls and data manipulation in python.
 
 ## Running the project
 1. Populate passwords-TEMPLATE.py with your Quandl API-Key:
-QUANDL_API_KEY = YOUR_API_KEY_HERE
+`QUANDL_API_KEY = YOUR_API_KEY_HERE`
 Then, rename passwords-TEMPLATE to passwords.py.
 
 2. Next, run QuandlCodeProject at the command line with the following parameters:
@@ -17,7 +17,7 @@ START_DATE = starting date for data in the format of YYYY-MM-DD
 END_DATE = ending date for data in the format of YYYY-MM-DD
 
 example program command line run:
-python QuandleCodeProject.py "AAPL,GOOG" "2017-01-01" "2017-04-30"
+`python QuandleCodeProject.py "AAPL,GOOG" "2017-01-01" "2017-04-30"`
 
 3. Optional Parameters:
 --max-daily-profit
@@ -28,4 +28,4 @@ Busiest day for each stock by volume
 Stock with the most number of days with a close price lower than open
 
 Example program run with optional parameters
-python QuandleCodeProject.py "AAPL,GOOG" "2017-01-01" "2017-04-30" --biggest-loser --busy-day
+`python QuandleCodeProject.py "AAPL,GOOG" "2017-01-01" "2017-04-30" --biggest-loser --busy-day`
