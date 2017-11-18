@@ -6,7 +6,7 @@ Simple project demonstrating quandl api calls and data manipulation in python.
  Libraries: Numpy, Pandas, Requests
 
 ## Running the project
-1. Populate passwords-TEMPLATE.py with your Quandl API-Key:
+1. Populate passwords-TEMPLATE.py with your [Quandl](https://www.quandl.com/) API-Key:
 `QUANDL_API_KEY = YOUR_API_KEY_HERE`
 Then, rename passwords-TEMPLATE to passwords.py.
 
