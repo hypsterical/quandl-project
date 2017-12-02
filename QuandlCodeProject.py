@@ -71,7 +71,7 @@ def getBusyDays(df, printToScreen = False):
             print "Average Volume: " + str(item["avg_volume"][0])
             print item[["date", 'volume']].to_string(index=False)
             print ""
-    #return df[idx]
+    return df[idx]
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
